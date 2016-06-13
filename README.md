@@ -1,4 +1,6 @@
-# Codebyte-Challenge-First-Factorial
+# Bootcamp Prep: Recursion
+
+Coderbyte Challenge: First Factorial
 Have the function FirstFactorial(num) take the num parameter being passed and return the factorial of it (ie. if num = 4, return (4 * 3 * 2 * 1)). For the test cases, the range will be between 1 and 18. 
 
 
@@ -12,3 +14,4 @@ Have the function FirstFactorial(num) take the num parameter being passed and re
     // it will run for all other conditions except when num is equal to 0
     return num * FirstFactorial(num - 1);
     }
+
